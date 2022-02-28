@@ -14,7 +14,7 @@ pipelines:
               - node
             script:
               - npm install
-              - npm test
+              - npm run cy:open
         - step:
             name: Code linting
             script:
