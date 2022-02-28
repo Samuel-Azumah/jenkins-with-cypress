@@ -40,5 +40,8 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "dependencies": {
+    "xvfb": "^0.4.0"
   }
 }
