@@ -10,6 +10,6 @@ pipelines:
     - step:
         script:
           # install dependencies
-          - npm i
+          - npm install
           # run Cypress tests
-          - npm run jira:chrome
+          - npm run cy:runci

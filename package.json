@@ -7,8 +7,8 @@
     "format": "prettier --write configs/*.json cypress/**/*.js",
     "cy:open": "cross-env NODE_PATH=. cypress open --config-file cypress-open.json",
     "cy:run": "cross-env NODE_PATH=. node cypress-runner --config-file cypress.json",
-    "cy:runci": "cross-env NODE_PATH=. cypress run --headless --config-file cypress-run-ci.json",
-    "jira:chrome": "cypress run --group 1x-chrome --record --headless --browser chrome"
+    "cy:runci": "cross-env NODE_PATH=. cypress run cypress run --headless --browser chrome --config-file cypress-run-ci.json",
+    "jira:chrome": "cypress run --headless --browser chrome"
   },
   "author": "Samuel Azumah",
   "license": "UNLICENSED",
