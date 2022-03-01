@@ -12,4 +12,4 @@ pipelines:
           # install dependencies
           - npm i
           # run Cypress tests
-          - npm run cy:open --headless
+          - npm run cy:runci
