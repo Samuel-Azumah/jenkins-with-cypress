@@ -11,5 +11,7 @@ pipelines:
         script:
           # install dependencies
           - npm i
+          #run headless mode
+          - cypress run --headless
           # run Cypress tests
           - npm run cy:open
