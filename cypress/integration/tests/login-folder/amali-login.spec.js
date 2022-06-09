@@ -1,12 +1,12 @@
 /**
- * {{upperCase epic}}
+ * TAB-003
  */
 import { defaultDevices } from 'cypress/integration/_helpers/default-devices'
 import { baseUrl } from 'cypress/fixtures/shared/environment.js'
 
-import { customer } from 'cypress/fixtures/{{kebabCase folder}}/{{dotCase number}}-{{kebabCase name}}.data'
+import { customer } from 'cypress/fixtures/login-folder/login-.data'
 
-const testSpecName = 'amali-{{dotCase number}}'
+const testSpecName = 'amali-login'
 const targetUrl = `${baseUrl}/de/`
 
 defaultDevices.map((device) => {

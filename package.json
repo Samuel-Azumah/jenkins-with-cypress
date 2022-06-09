@@ -15,6 +15,7 @@
   "private": true,
   "devDependencies": {
     "@cypress/browserify-preprocessor": "^3.0.1",
+    "@preflight-hq/preflight-cypress-plugin": "^1.0.12",
     "cross-env": "^7.0.2",
     "cypress": "^8.2.0",
     "cypress-iframe": "^1.0.1",

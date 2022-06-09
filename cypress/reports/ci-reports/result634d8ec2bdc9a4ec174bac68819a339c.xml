@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.7240" tests="2" failures="1" skipped="1">
+  <testsuite name="Root Suite" timestamp="2022-04-12T14:41:19" tests="0" file="cypress/integration/tests/amali-registration.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="test" timestamp="2022-04-12T14:41:19" tests="1" time="0.0010" failures="0" skipped="1">
+    <testcase name="test Should add an item to cart and navigate to step 1" time="0.0000" classname="Should add an item to cart and navigate to step 1">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="test" timestamp="2022-04-12T14:41:19" tests="1" time="0.7070" failures="1">
+    <testcase name="test Should login, add item to cart and to proceed to step 1" time="0.2760" classname="Should login, add item to cart and to proceed to step 1">
+      <failure message="cy.initializeAutoheal is not a function" type="TypeError"><![CDATA[TypeError: cy.initializeAutoheal is not a function
+    at Context.eval (http://localhost:53496/__cypress/tests?p=cypress\integration\tests\amali-registration.spec.js:58:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

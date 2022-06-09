@@ -3,7 +3,12 @@ module.exports = function generateComponent(plop) {
     description: 'Creates a spec file and fixture',
     prompts: [
       {
-        message: 'EPIC, example:  PIC-123  or  PIC-123, PIC-124 >> ',
+        message: 'Name of folder, example:  001-Registration, 002-Login>> ',
+        name: 'folder',
+      },
+      {
+        message:
+          'Project Key, example:  Project Name: Test Automation Board (TAB-000)>> ',
         name: 'epic',
         type: 'input',
         validate(value) {
@@ -14,7 +19,7 @@ module.exports = function generateComponent(plop) {
         },
       },
       {
-        message: 'number of the file, example: exli-001 >> ',
+        message: 'Name of the file, example: amali-001 >> ',
         name: 'number',
         type: 'input',
         validate(value) {
@@ -27,13 +32,13 @@ module.exports = function generateComponent(plop) {
     ],
     actions: [
       {
-        path: 'cypress/integration/tests/exli-{{dotCase number}}.spec.js',
+        path: 'cypress/integration/tests/{{folder}}/amali-{{dotCase number}}.spec.js',
         skipIfExists: true,
         templateFile: 'plop-templates/spec/spec.plop',
         type: 'add',
       },
       {
-        path: 'cypress/fixtures/exli-{{dotCase number}}.data.js',
+        path: 'cypress/fixtures/amali-{{dotCase number}}.data.js',
         skipIfExists: true,
         templateFile: 'plop-templates/spec/data.plop',
         type: 'add',

@@ -8,7 +8,8 @@
   "video": false,
   "headless": false,
   "env": {
-    "mode-run": false
+    "mode-run": false,
+    "PREFLIGHT_API_KEY": "OGI5YTIxYTYtNDRkYS00Mjk0LTg1MzUtZjE5MWE3NmNjMTM4OjcxZDEwMTFlLWMwNTktNDk2NS05MjczLTQ3MTk2MGJiMGJlOQ=="
   },
   "retries": 0,
   "scrollBehavior": "center",
