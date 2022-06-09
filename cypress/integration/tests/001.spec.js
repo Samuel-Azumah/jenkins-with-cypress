@@ -1,5 +1,5 @@
 /**
- * Sample Test
+ * Sample Test2
  */
 
 import { getTestSpecName } from 'lib/testSpecName'
